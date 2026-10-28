@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "01 Khảo sát dữ liệu", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/scripts/01_explore_data.py", "console": "integratedTerminal"},
+    {"name": "02 OCR val (basic)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/scripts/02_run_ocr.py", "args": ["--split", "val", "--limit", "200", "--variant", "basic"], "console": "integratedTerminal"},
+    {"name": "02 OCR val (improved)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/scripts/02_run_ocr.py", "args": ["--split", "val", "--limit", "200", "--variant", "improved"], "console": "integratedTerminal"},
+    {"name": "03 Đánh giá val", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/scripts/03_evaluate.py", "args": ["--split", "val"], "console": "integratedTerminal"},
+    {"name": "04 Phân tích lỗi", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/scripts/04_error_analysis.py", "console": "integratedTerminal"},
+    {"name": "Demo Streamlit", "type": "debugpy", "request": "launch", "module": "streamlit", "args": ["run", "app.py"], "console": "integratedTerminal"}
+  ]
+}

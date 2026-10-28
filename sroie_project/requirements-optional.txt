@@ -1,0 +1,2 @@
+# OCR thứ hai (nặng, kéo theo PyTorch ~ vài trăm MB). Chỉ cài nếu muốn so sánh với Tesseract.
+easyocr>=1.7
